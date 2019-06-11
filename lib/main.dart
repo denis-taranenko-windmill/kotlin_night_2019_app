@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:kotlin_night_2019_app/sreens/home_screen.dart';
+import 'package:kotlin_night_2019_app/sreens/data_soruces/colors_data_source.dart';
+import 'package:kotlin_night_2019_app/sreens/list_screen/list_screen.dart';
+import 'package:provider/provider.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomePage(),
+      home: ListPage(),
     );
   }
 }
